@@ -1,3 +1,13 @@
+import AddCountry from "@/components/AddCountry";
+import Header from "@/components/Header";
+import RecentCountry from "@/components/RecentCountry";
+
 export default function Home() {
-  return <h1>Hello, wilder !</h1>;
+  return (
+    <div>
+      <Header />
+      <AddCountry />
+      <RecentCountry />
+    </div>
+  );
 }
